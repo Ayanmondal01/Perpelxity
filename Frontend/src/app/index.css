@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+.messages::-webkit-scrollbar {
+    display: none;
+}
